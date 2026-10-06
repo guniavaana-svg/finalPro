@@ -1,15 +1,12 @@
 import type { RootState } from "../state/store.ts";
 import { CiHeart } from "react-icons/ci";
 import { useAppSelector, useAppDispatch } from "../state/hooks.ts";
-import {addFavItem, removeFavItem, clearAllFavItems} from "../state/StateSlices/favoriteSlice.ts"
+import { removeFavItem, clearAllFavItems } from "../state/StateSlices/favoriteSlice.ts";
 import { useEffect, useState } from "react";
-import { DiVim } from "react-icons/di";
 import { FaTimes } from "react-icons/fa";
 import { API_URL } from "../../config.ts";
 import type { StationeryDataType } from "../dataType.ts";
 import ProductCard from "./ProductCard.tsx";
-// import { useContext, useEffect, useState } from "react";
-// import { FavoriteContext } from "../FavoriteContext";
 function Favorite(){
     // const {FavId}=useContext(FavoriteContext)
     // console.log(FavListId, FavId)
