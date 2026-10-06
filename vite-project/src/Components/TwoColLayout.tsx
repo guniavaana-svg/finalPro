@@ -1,5 +1,4 @@
 import "./TwoColLayout.css";
-import BtnMore from "./BtnMore"; // Adjust path to where BtnMore is located
 
 interface TwoColPropsType{
     id?:string;
