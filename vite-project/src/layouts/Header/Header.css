@@ -1,0 +1,15 @@
+header{
+    @apply fixed  top-0 z-50  px-5 shadow-2xl bg-[#d9e1f9] dark:text-[#b3c3f3] dark:bg-[#070b17] dark:shadow-darkshadow right-0 left-0;
+}
+header .searchBtn{
+    @apply flex items-center justify-start gap-1 px-2 py-1 rounded-[10px] bg-light3 text-dark2 w-1/5 border-none
+}
+header .logo{
+    @apply flex justify-center items-center flex-col mx-auto translate-x-[50%] w-[100px];
+}
+header .logo .logoIcon{
+    @apply overflow-hidden flex justify-center items-center w-[100px];
+}
+.headerBtns{
+    @apply  flex items-center justify-center text-sm bg-btnLight text-light1 dark:bg-btnDark px-2 py-1 rounded-[10px];
+}

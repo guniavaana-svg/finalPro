@@ -1,0 +1,27 @@
+.sectionCardDEtail .icon, .productItem .icon{
+    @apply w-[25px] h-[25px];
+}
+.sectionCardDEtail .favIcon, .productItem .favIcon{
+    @apply hover:scale-125   transition duration-300 ease-in-out border-none;
+}
+.sectionCardDEtail .xBtn, .sectionCardDEtail .leftBtn, .sectionCardDEtail .RightBtn{
+    @apply absolute  p-2 text-btnLight dark:text-light2 flex justify-center items-center ;
+}
+.sectionCardDEtail .xBtn{
+    @apply top-0 right-0
+}
+.sectionCardDEtail .leftBtn, .sectionCardDEtail .RightBtn{
+    @apply top-[50%] -translate-y-1/2 bg-light2  dark:bg-btnDark rounded-full shadow-lg
+}
+.sectionCardDEtail .btn{
+    @apply flex gap-2 items-center justify-center px-2 rounded-xl
+}
+.sectionCardDEtail .inputBtn{
+     @apply bg-light1 border border-light1 rounded-lg outline-none focus:ring-1 focus:ring-btnLight
+} 
+.sectionCardDEtail .btnText {
+    @apply translate-y-[2px] font-mtavruli text-xl;
+}
+.sectionCardDEtail h3{
+    @apply flex justify-start items-center bg-light2 dark:text-dark1 p-2 text-start rounded-xl mb-3 hover:shadow-sm hover:shadow-btnLight/60 hover:opacity-95
+}

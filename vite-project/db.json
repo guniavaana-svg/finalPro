@@ -1,0 +1,873 @@
+{
+  "users": [
+    {
+      "firstame": "jugg",
+      "lastname": "dfjg",
+      "gender": "famale",
+      "email": "face@mail.ge",
+      "phone": "34623326",
+      "password": "Fake@12345678",
+      "id": 1
+    },
+    {
+      "firstame": "bob",
+      "lastname": "bobb",
+      "gender": "male",
+      "email": "bob@gmail.com",
+      "phone": "55555255",
+      "password": "Bob12345678@",
+      "id": 6
+    }
+  ],
+  "menu": [
+    {
+      "id": 2,
+      "path": "stationery",
+      "name": "საკანცელარიო ნივთები",
+      "children": [
+        {
+          "id": 21,
+          "path": "pens-pencils",
+          "name": "კალმები და ფანქრები"
+        },
+        {
+          "id": 22,
+          "path": "notebooks-pads",
+          "name": "რვეულები და ბლოკნოტები"
+        },
+        {
+          "id": 23,
+          "path": "office-supplies",
+          "name": "საოფისე ნივთები (სტეპლერი, სკოჩი)"
+        },
+        {
+          "id": 24,
+          "path": "desk-organizers",
+          "name": "მაგიდის ორგანაიზერები"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "path": "diaries-planners",
+      "name": "დღიურები და წიგნაკები",
+      "children": [
+        {
+          "id": 31,
+          "path": "daily-planners",
+          "name": "ყოველდღიური პლანერები"
+        },
+        {
+          "id": 32,
+          "path": "dated-diaries",
+          "name": "დათარიღებული დღიურები"
+        },
+        {
+          "id": 33,
+          "path": "undated-diaries",
+          "name": "უდათარიღო დღიურები"
+        },
+        {
+          "id": 34,
+          "path": "bullet-journals",
+          "name": "ბულეტ ჟურნალები"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "path": "gift-cards",
+      "name": "მისალოცი ბარათები",
+      "children": [
+        {
+          "id": 41,
+          "path": "birthday-cards",
+          "name": "დაბადების დღის ბარათები"
+        },
+        {
+          "id": 42,
+          "path": "holiday-cards",
+          "name": "სადღესასწაულო ბარათები"
+        },
+        {
+          "id": 43,
+          "path": "hand-made-cards",
+          "name": "ხელნაკეთი ბარათები"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "path": "books",
+      "name": "წიგნები",
+      "children": [
+        {
+          "id": 51,
+          "path": "fiction",
+          "name": "მხატვრული ლიტერატურა"
+        },
+        {
+          "id": 52,
+          "path": "non-fiction",
+          "name": "სამეცნიერო / პოპულარული"
+        },
+        {
+          "id": 53,
+          "path": "childrens-books",
+          "name": "საბავშვო წიგნები"
+        },
+        {
+          "id": 54,
+          "path": "self-development",
+          "name": "თვითგანვითარება და ბიზნესი"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "path": "journals",
+      "name": "ჟურნალ-გაზეთები",
+      "children": [
+        {
+          "id": 61,
+          "path": "weekly-magazines",
+          "name": "ყოველკვირეული ჟურნალები"
+        },
+        {
+          "id": 62,
+          "path": "scientific-journals",
+          "name": "სამეცნიერო გამოცემები"
+        },
+        {
+          "id": 63,
+          "path": "newspapers",
+          "name": "ყოველდღიური გაზეთები"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "path": "printing",
+      "name": "ბეჭდვა",
+      "children": [
+        {
+          "id": 71,
+          "path": "document-printing",
+          "name": "დოკუმენტების ბეჭდვა / ქსეროქსი"
+        },
+        {
+          "id": 72,
+          "path": "photo-printing",
+          "name": "ფოტოების ბეჭდვა"
+        },
+        {
+          "id": 73,
+          "path": "custom-branding",
+          "name": "ბრენდირებული პროდუქცია"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "path": "delivery",
+      "name": "მიწოდება",
+      "children": [
+        {
+          "id": 81,
+          "path": "tbilisi-delivery",
+          "name": "თბილისის მასშტაბით"
+        },
+        {
+          "id": 82,
+          "path": "regional-delivery",
+          "name": "რეგიონებში მიწოდება"
+        },
+        {
+          "id": 83,
+          "path": "express-delivery",
+          "name": "ექსპრეს მიწოდება"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "path": "contact",
+      "name": "საკონტაქტო",
+      "children": [
+        {
+          "id": 91,
+          "path": "branches",
+          "name": "ფილიალები"
+        },
+        {
+          "id": 92,
+          "path": "faq",
+          "name": "ხშირად დასმული კითხვები"
+        },
+        {
+          "id": 93,
+          "path": "feedback",
+          "name": "უკუკავშირი"
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+        "id": 1,
+        "name": "Office Plus",
+        "logo": "/images/suppliers/office-plus.png"
+    },
+    {
+        "id": 2,
+        "name": "Biblusi",
+        "logo": "/images/suppliers/biblusi.png"
+    },
+    {
+        "id": 3,
+        "name": "pegasi",
+        "logo": "/images/suppliers/pegasi.png"
+    },
+    {
+        "id": 4,
+        "name": "Stationery House",
+        "logo": "/images/suppliers/stationery-house.png"
+    },
+    {
+        "id": 5,
+        "name": "Papyrus",
+        "logo": "/images/suppliers/papyrus.png"
+    }
+],
+  "stationery": [
+    {
+      "id": 1,
+      "name": "Moleskine კლასიკური ნოუთბუქი A5 — შავი",
+      "description": "Moleskine-ის ლეგენდარული ნოუთბუქი — 240 გვერდი, კრემისფერი ხარისხიანი ქაღალდი, ელასტიური დამჭერი ზოლი, ჩაშენებული ჩანიშვნის ვადი და ჯიბის კონვერტი. მყარი ყდა, კლასიკური შავი ფერი.",
+      "category": "დღიურები და ნოუთბუქები",
+      "subcategory": "პრემიუმ ნოუთბუქები",
+      "brand": "Moleskine",
+      "sku": "NOT-MOL-A5-001",
+      "price": 42.9,
+      "currency": "GEL",
+      "discountPercentage": 8,
+      "rating": 4.9,
+      "stock": 120,
+      "availability": "მარაგშია",
+      "returnPolicy": "14 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "200გ",
+      "tags": [
+        "ნოუთბუქი",
+        "დღიური",
+        "პრემიუმ",
+        "კლასიკა"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&q=80",
+        "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=800&q=80",
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "size": "A5 (14.8×21 სმ)",
+        "pages": 240,
+        "cover": "მყარი",
+        "ruling": "ხაზგასმული",
+        "color": "შავი",
+        "paperWeight": "70გ/მ²"
+      }],
+      "supplier" : "Office Plus"
+=======
+      "specifications": [
+        {
+          "size": "A5 (14.8×21 სმ)",
+          "pages": 240,
+          "cover": "მყარი",
+          "ruling": "ხაზგასმული",
+          "color": "შავი",
+          "paperWeight": "70გ/მ²"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 2,
+      "name": "Leuchtturm1917 დღიური A5 — ზღვისფერი",
+      "description": "გერმანული სიზუსტე და დიზაინი — 249 დანომრილი გვერდი, 2 ჩანიშვნის ვადი, ჯიბის კონვერტი, სტიკერები გვერდის სათაურებისთვის. 80გ/მ² ქაღალდი — მელანი არ ჩასჭვირდება. ბლეთჯორნალისტების საყვარელი.",
+      "category": "დღიურები და ნოუთბუქები",
+      "subcategory": "პრემიუმ ნოუთბუქები",
+      "brand": "Leuchtturm1917",
+      "sku": "NOT-LEU-A5-002",
+      "price": 38.5,
+      "currency": "GEL",
+      "discountPercentage": 5,
+      "rating": 4.8,
+      "stock": 85,
+      "availability": "მარაგშია",
+      "returnPolicy": "14 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "220გ",
+      "tags": [
+        "ნოუთბუქი",
+        "დღიური",
+        "გერმანული",
+        "ბლეთჯორნალი"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?w=800&q=80",
+        "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&q=80",
+        "https://images.unsplash.com/photo-1470549638415-0a0755be0619?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "size": "A5 (14.8×21 სმ)",
+        "pages": 249,
+        "cover": "მყარი",
+        "ruling": "წერტილოვანი (დოთ-გრიდი)",
+        "color": "ზღვისფერი",
+        "paperWeight": "80გ/მ²",
+        "numberedPages": true
+      }],
+      "supplier" : "Office Plus"
+=======
+      "specifications": [
+        {
+          "size": "A5 (14.8×21 სმ)",
+          "pages": 249,
+          "cover": "მყარი",
+          "ruling": "წერტილოვანი (დოთ-გრიდი)",
+          "color": "ზღვისფერი",
+          "paperWeight": "80გ/მ²",
+          "numberedPages": true
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 3,
+      "name": "Traveler's Notebook — ჩოხისფერი ტყავი",
+      "description": "იაპონური ხელნაკეთი ტყავის ნოუთბუქი — ბუნებრივი ტყავი, რომელიც დროთა განმავლობაში კიდევ უფრო ლამაზდება. ჩასანაცვლებელი ბლოკები, ელასტიური ზოლი. მოგზაურობისა და ჩანახატების ჩასაწერად.",
+      "category": "დღიურები და ნოუთბუქები",
+      "subcategory": "ტყავის დღიურები",
+      "brand": "Traveler's Company",
+      "sku": "NOT-TRA-LEA-003",
+      "price": 89,
+      "currency": "GEL",
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "stock": 30,
+      "availability": "მარაგშია",
+      "returnPolicy": "არ ბრუნდება",
+      "minimumOrderQuantity": 1,
+      "weight": "100გ",
+      "tags": [
+        "ტყავი",
+        "დღიური",
+        "იაპონური",
+        "მოგზაურობა"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1601645191163-3fc0d5d64e35?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1601645191163-3fc0d5d64e35?w=800&q=80",
+        "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+        "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "size": "სტანდარტი (22×12 სმ)",
+        "material": "ბუნებრივი ტყავი",
+        "refills": "ჩასანაცვლებელი",
+        "color": "ჩოხისფერი",
+        "origin": "იაპონია"
+      }],
+      "supplier" : "Office Plus"
+=======
+      "specifications": [
+        {
+          "size": "სტანდარტი (22×12 სმ)",
+          "material": "ბუნებრივი ტყავი",
+          "refills": "ჩასანაცვლებელი",
+          "color": "ჩოხისფერი",
+          "origin": "იაპონია"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 4,
+      "name": "Lamy Safari საწერი კალამი — გრაფიტისფერი",
+      "description": "გერმანული დიზაინის კლასიკა. ABS პლასტიკი, სამკუთხა ეჭერი — ხელი არ ეღლება. ინკ კარტრიჯი ან კონვერტერი. გლუვი, სუფთა, ელეგანტური წერა. F ნიბი — ბლეთჯორნალისტების #1 კალამი.",
+      "category": "დღიურები და ნოუთბუქები",
+      "subcategory": "საწერი კალმები",
+      "brand": "Lamy",
+      "sku": "KAL-LAM-SAF-004",
+      "price": 58,
+      "currency": "GEL",
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "stock": 55,
+      "availability": "მარაგშია",
+      "returnPolicy": "14 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "17გ",
+      "tags": [
+        "საწერი კალამი",
+        "fountain pen",
+        "გერმანული",
+        "ბლეთჯორნალი"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=800&q=80",
+        "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&q=80",
+        "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "nib": "F (Fine)",
+        "nibMaterial": "უჟანგავი ფოლადი",
+        "filling": "კარტრიჯი / კონვერტერი",
+        "body": "ABS პლასტიკი",
+        "color": "გრაფიტისფერი",
+        "origin": "გერმანია"
+      }],
+      "supplier" : "Papyrus"
+=======
+      "specifications": [
+        {
+          "nib": "F (Fine)",
+          "nibMaterial": "უჟანგავი ფოლადი",
+          "filling": "კარტრიჯი / კონვერტერი",
+          "body": "ABS პლასტიკი",
+          "color": "გრაფიტისფერი",
+          "origin": "გერმანია"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 5,
+      "name": "Winsor & Newton Cotman აკვარელი — 12 ფერი",
+      "description": "Winsor & Newton Cotman — პროფესიონალთა ხარისხი ხელმისაწვდომ ფასად. 12 ინტენსიური ფერი ნახევარ-პანის ფორმატში, მაღალი პიგმენტაცია, ადვილი შერევა. ლამაზი გრადიენტები. დამწყები და გამოცდილი მხატვრებისთვის.",
+      "category": "სახატავი მასალები",
+      "subcategory": "აკვარელი",
+      "brand": "Winsor & Newton",
+      "sku": "AKV-WIN-COT-005",
+      "price": 34.9,
+      "currency": "GEL",
+      "discountPercentage": 10,
+      "rating": 4.7,
+      "stock": 95,
+      "availability": "მარაგშია",
+      "returnPolicy": "14 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "185გ",
+      "tags": [
+        "აკვარელი",
+        "ხატვა",
+        "მხატვრობა",
+        "საშემოქმედო"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1526510747491-58f928ec870f?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1526510747491-58f928ec870f?w=800&q=80",
+        "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "colors": 12,
+        "format": "ნახევარ-პანი (half-pan)",
+        "pigmentation": "მაღალი",
+        "series": "Cotman",
+        "packaging": "ლითონის ყუთი"
+      }],
+      "supplier" : "Papyrus"
+=======
+      "specifications": [
+        {
+          "colors": 12,
+          "format": "ნახევარ-პანი (half-pan)",
+          "pigmentation": "მაღალი",
+          "series": "Cotman",
+          "packaging": "ლითონის ყუთი"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 6,
+      "name": "Staedtler Mars Lumograph გრაფიტის კომპლექტი — 12 სიხისტე",
+      "description": "პროფესიონალი ილუსტრატორებისა და ტექნიკური მხატვრების სტანდარტი. 12 ფანქარი 6B-დან 4H-მდე. თანაბარი, გლუვი გრაფიტი, ადვილი წაშლა, კედარის ხის კორპუსი. ლითონის ყუთი.",
+      "category": "სახატავი მასალები",
+      "subcategory": "გრაფიტის ფანქრები",
+      "brand": "Staedtler",
+      "sku": "GRA-STA-LUM-006",
+      "price": 27.5,
+      "currency": "GEL",
+      "discountPercentage": 6,
+      "rating": 4.9,
+      "stock": 160,
+      "availability": "მარაგშია",
+      "returnPolicy": "30 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "130გ",
+      "tags": [
+        "ფანქარი",
+        "გრაფიტი",
+        "ნახატი",
+        "სქეჩი",
+        "პროფესიონალი"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1553481187-be93c21490a9?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1553481187-be93c21490a9?w=800&q=80",
+        "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?w=800&q=80",
+        "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "quantity": 12,
+        "hardnessRange": "6B — 4H",
+        "body": "კედარი",
+        "pigment": "გრაფიტი",
+        "packaging": "ლითონის ყუთი"
+      }],
+      "supplier" : "Papyrus"
+=======
+      "specifications": [
+        {
+          "quantity": 12,
+          "hardnessRange": "6B — 4H",
+          "body": "კედარი",
+          "pigment": "გრაფიტი",
+          "packaging": "ლითონის ყუთი"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 7,
+      "name": "Sakura Pigma Micron ფაინლაინერი — 6 ზომა",
+      "description": "ილუსტრაციისა და ბლეთჯორნალისტიკის ოქროს სტანდარტი. UV-მდგრადი, წყალმდგრადი, არქივის ხარისხის პიგმენტი. 6 სხვადასხვა სიგანე (005–08). ხაზი არ იბუნდება, მელანი არ ასვრის.",
+      "category": "სახატავი მასალები",
+      "subcategory": "ფაინლაინერები",
+      "brand": "Sakura",
+      "sku": "FIN-SAK-MIC-007",
+      "price": 21.9,
+      "currency": "GEL",
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "stock": 200,
+      "availability": "მარაგშია",
+      "returnPolicy": "14 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "45გ",
+      "tags": [
+        "ფაინლაინერი",
+        "ნახატი",
+        "მელანი",
+        "ბლეთჯორნალი",
+        "ილუსტრაცია"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?w=800&q=80",
+        "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=800&q=80",
+        "https://images.unsplash.com/photo-1540317580384-e5d43867caa6?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "sizes": ["005", "01", "02", "03", "05", "08"],
+        "inkType": "პიგმენტი",
+        "waterproof": true,
+        "uvResistant": true,
+        "color": "შავი"
+      }],
+      "supplier" : "pegasi"
+=======
+      "specifications": [
+        {
+          "sizes": [
+            "005",
+            "01",
+            "02",
+            "03",
+            "05",
+            "08"
+          ],
+          "inkType": "პიგმენტი",
+          "waterproof": true,
+          "uvResistant": true,
+          "color": "შავი"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 8,
+      "name": "Canson XL სახატავი ბლოკი A4 — 120გ, 50 ფურცელი",
+      "description": "საყოველთაო სახატავი ბლოკი გრაფიტისთვის, ნახშირისთვის, ფერადი ფანქრებისთვის და მარკერებისთვის. 120გ/მ², ოდნავ ფაქტუირებული ზედაპირი, სპირალური შეკვრა — ფურცლები ადვილად სჭრება.",
+      "category": "სახატავი მასალები",
+      "subcategory": "სახატავი ქაღალდი და ბლოკები",
+      "brand": "Canson",
+      "sku": "BLO-CAN-XL-008",
+      "price": 16.9,
+      "currency": "GEL",
+      "discountPercentage": 12,
+      "rating": 4.6,
+      "stock": 220,
+      "availability": "მარაგშია",
+      "returnPolicy": "14 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "400გ",
+      "tags": [
+        "სახატავი",
+        "ბლოკი",
+        "ქაღალდი",
+        "ნახატი",
+        "A4"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1567225557594-88d73e55f2cb?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1567225557594-88d73e55f2cb?w=800&q=80",
+        "https://images.unsplash.com/photo-1603484477859-abe6a73f9366?w=800&q=80",
+        "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "size": "A4 (21×29.7 სმ)",
+        "paperWeight": "120გ/მ²",
+        "sheets": 50,
+        "binding": "სპირალური",
+        "surface": "ოდნავ ფაქტუირებული"
+      }],
+      "supplier" : "pegasi"
+=======
+      "specifications": [
+        {
+          "size": "A4 (21×29.7 სმ)",
+          "paperWeight": "120გ/მ²",
+          "sheets": 50,
+          "binding": "სპირალური",
+          "surface": "ოდნავ ფაქტუირებული"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 9,
+      "name": "Faber-Castell Polychromos ფერადი ფანქრები — 36 ფერი",
+      "description": "ზეთოვანი ბაზის ფერადი ფანქრები, ბრწყინვალე პიგმენტაცია, მდგრადია სინათლისა და წყლის მიმართ. რბილი, კრემისებური ნახატი, ეშვება ფენებად. პროფესიონალი ილუსტრატორების #1 ფანქრები.",
+      "category": "სახატავი მასალები",
+      "subcategory": "ფერადი ფანქრები",
+      "brand": "Faber-Castell",
+      "sku": "FAN-FAB-POL-009",
+      "price": 97,
+      "currency": "GEL",
+      "discountPercentage": 5,
+      "rating": 4.9,
+      "stock": 60,
+      "availability": "მარაგშია",
+      "returnPolicy": "14 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "550გ",
+      "tags": [
+        "ფერადი ფანქარი",
+        "ხელოვნება",
+        "ილუსტრაცია",
+        "პროფესიონალი"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+        "https://images.unsplash.com/photo-1560421683-6856ea585c78?w=800&q=80",
+        "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "colors": 36,
+        "base": "ზეთოვანი",
+        "lightfastness": true,
+        "waterResistant": true,
+        "packaging": "ლითონის ყუთი"
+      }],
+      "supplier" : "Stationery House"
+=======
+      "specifications": [
+        {
+          "colors": 36,
+          "base": "ზეთოვანი",
+          "lightfastness": true,
+          "waterResistant": true,
+          "packaging": "ლითონის ყუთი"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 10,
+      "name": "Copic Sketch მარკერი — ერთეული",
+      "description": "მსოფლიოში ყველაზე პოპულარული მარკერი ილუსტრატორებსა და მანგა-მხატვრებში. ალკოჰოლური ბაზა, ბრწყინვალე ბლენდინგი, ჩასანაცვლებელი ბუშტი და ჩასავსები. 358 ფერი.",
+      "category": "სახატავი მასალები",
+      "subcategory": "მარკერები",
+      "brand": "Copic",
+      "sku": "MAR-COP-SKE-010",
+      "price": 19.5,
+      "currency": "GEL",
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "stock": 300,
+      "availability": "მარაგშია",
+      "returnPolicy": "7 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "18გ",
+      "tags": [
+        "მარკერი",
+        "ილუსტრაცია",
+        "მანგა",
+        "ბლენდინგი"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=800&q=80",
+        "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80",
+        "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "base": "ალკოჰოლური",
+        "tipType": "ორმხრივი (broad + super brush)",
+        "refillable": true,
+        "availableColors": 358,
+        "replaceable": true
+      }],
+      "supplier" : "pegasi"
+=======
+      "specifications": [
+        {
+          "base": "ალკოჰოლური",
+          "tipType": "ორმხრივი (broad + super brush)",
+          "refillable": true,
+          "availableColors": 358,
+          "replaceable": true
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 11,
+      "name": "Princeton Velvetouch სახატავი ფუნჯების კომპლექტი — 6 ცალი",
+      "description": "სინთეტიკური ფუნჯები, რომლებიც ბუნებრივი ფუნჯის შეგრძნებას იძლევა. შესაფერისია აკვარელისთვის, გუაშისთვის და აკრილისთვის. 6 სხვადასხვა ფორმა — ბრტყელი, მრგვალი, კატის ენა, ფანქარი.",
+      "category": "სახატავი მასალები",
+      "subcategory": "ფუნჯები",
+      "brand": "Princeton",
+      "sku": "FUN-PRI-VEL-011",
+      "price": 44.9,
+      "currency": "GEL",
+      "discountPercentage": 8,
+      "rating": 4.7,
+      "stock": 75,
+      "availability": "მარაგშია",
+      "returnPolicy": "14 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "80გ",
+      "tags": [
+        "ფუნჯი",
+        "სახატავი",
+        "აკვარელი",
+        "გუაში",
+        "მხატვრობა"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&q=80",
+        "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=800&q=80",
+        "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "quantity": 6,
+        "material": "სინთეტიკა",
+        "types": ["მრგვალი", "ბრტყელი", "კატის ენა", "ფანქარი"],
+        "usage": ["აკვარელი", "გუაში", "აკრილი"],
+        "handle": "ხის, მოკლე"
+      }],
+      "supplier" : "Stationery House"
+=======
+      "specifications": [
+        {
+          "quantity": 6,
+          "material": "სინთეტიკა",
+          "types": [
+            "მრგვალი",
+            "ბრტყელი",
+            "კატის ენა",
+            "ფანქარი"
+          ],
+          "usage": [
+            "აკვარელი",
+            "გუაში",
+            "აკრილი"
+          ],
+          "handle": "ხის, მოკლე"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    },
+    {
+      "id": 12,
+      "name": "Hobonichi Techo Cousin A5 — 2025",
+      "description": "იაპონური კულტური პლანერ-დღიური — ყოველდღიური, ყოველკვირეული და ყოველთვიური სქემები. Tomoe River ქაღალდი (52გ/მ²) — წყლისებური, მაგრამ გამჭვირვალე, ქმნის 'ghost' ეფექტს. ბლეთჯორნალისტების #1 დღიური.",
+      "category": "დღიურები და ნოუთბუქები",
+      "subcategory": "პლანერები",
+      "brand": "Hobonichi",
+      "sku": "NOT-HOB-A5-012",
+      "price": 74,
+      "currency": "GEL",
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "stock": 40,
+      "availability": "მარაგშია",
+      "returnPolicy": "7 დღის განმავლობაში",
+      "minimumOrderQuantity": 1,
+      "weight": "250გ",
+      "tags": [
+        "პლანერი",
+        "დღიური",
+        "იაპონური",
+        "2025",
+        "ბლეთჯორნალი"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1506784365847-bbad939e9501?w=400&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1506784365847-bbad939e9501?w=800&q=80",
+        "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
+        "https://images.unsplash.com/photo-1550399105-c4db5fb85c18?w=800&q=80"
+      ],
+<<<<<<< HEAD
+      "specifications": [{
+        "size": "A5",
+        "paper": "Tomoe River 52გ/მ²",
+        "type": "ყოველდღიური პლანერი",
+        "year": 2025,
+        "language": "იაპონური / ინგლისური"
+      }],
+      "supplier" : "Stationery House"
+=======
+      "specifications": [
+        {
+          "size": "A5",
+          "paper": "Tomoe River 52გ/მ²",
+          "type": "ყოველდღიური პლანერი",
+          "year": 2025,
+          "language": "იაპონური / ინგლისური"
+        }
+      ]
+>>>>>>> 6f95ea92dfe2a1f4c891de0fd2a32a4fdd420b29
+    }
+  ]
+}
