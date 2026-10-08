@@ -20,7 +20,7 @@ function NavRoutes(){
                 <Route index element={<Home/>}/>
                 <Route path="Stationery" element={<Stationery/>} />
                 <Route path="Stationery/:id" element={<StationeryCardDetail/>} />
-                <Route path="Diaries&plenners" element={<h2>წიგნაკები და დღიურები</h2>} />
+                <Route path="diaries&plenners" element={<h2>წიგნაკები და დღიურები</h2>} />
                 <Route path="giftcards" element={<h2>სასაჩუქრე ბარათები</h2>}/>
                 <Route path="books" element={<h2>წიგნები</h2>}/>
                 <Route path="journals" element={<h2>ჟურნალ გაზეთები</h2>}/>

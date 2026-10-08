@@ -1,0 +1,49 @@
+.contact-section {
+        @apply pb-16;
+    }
+
+.contact-title {
+    @apply text-center text-3xl font-bold relative font-bpg
+           text-[clamp(1.5rem,3vw,2.3rem)]
+           tracking-[0.5px] text-[#4169E1] my-16 mb-24;
+}
+
+.contact-title::after {
+    @apply content-[''] absolute left-1/2 -translate-x-1/2
+           bottom-[-30px] w-24 h-1 rounded-full bg-contrastColl mt-8;
+}
+.contact-wrapper {
+    @apply grid grid-cols-1 md:grid-cols-2 items-stretch;
+}
+
+.contact-info {
+    @apply p-8 not-italic;
+}
+
+.contact-list {
+    @apply flex flex-col gap-8;
+}
+
+.contact-link {
+    @apply flex items-center justify-start gap-8 text-2xl;
+}
+
+.contact-icon {
+    @apply w-8 h-8 text-mainCol shrink-0;
+}
+
+.map-wrapper {
+    @apply relative min-h-[30rem];
+}
+
+.contact-map {
+    @apply w-full h-full min-h-[30rem] rounded-3xl;
+}
+
+.map-overlay {
+    @apply absolute inset-0
+    bg-[rgba(1,48,107,0.3)]
+    pointer-events-none
+    z-[400]
+    rounded-3xl;
+}

@@ -29,3 +29,8 @@ interface Specification {
   paperWeight?: string;
 }
 
+export interface SuppliersDataType{
+  id?:number;
+  name?:string;
+  logo?:string;
+}

@@ -21,18 +21,23 @@
   ],
   "menu": [
     {
+      "id": 1,
+      "path": "/",
+      "name": "მთავარი"
+    },
+    {
       "id": 2,
       "path": "stationery",
       "name": "საკანცელარიო ნივთები"
     },
     {
       "id": 3,
-      "path": "diaries-planners",
+      "path": "diaries&plenners",
       "name": "დღიურები და წიგნაკები"
     },
     {
       "id": 4,
-      "path": "gift-cards",
+      "path": "giftcards",
       "name": "მისალოცი ბარათები"
     },
     {

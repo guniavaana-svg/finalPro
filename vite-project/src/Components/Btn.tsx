@@ -2,15 +2,12 @@ import type { ReactNode } from "react";//tsconfig.json ში ჩართულ
 interface BtnPropsType{
     text?:string;
     icon?:ReactNode;
-    bgCol?:string;
-    textCol?:string;
-    hoverBgCol?:string;
     type?: "button" | "submit" | "reset";
 }
 function Btn(props:BtnPropsType){
-    const {text,bgCol,textCol,icon,type,hoverBgCol}=props
+    const {text,icon,type}=props
     return(
-        <button type={type} className={`${bgCol} ${textCol} flex gap-2 items-center justify-center px-2 rounded-xl dark:bg-btnDark hover:shadow-sm hover:shadow-btnLight hover:${hoverBgCol}`}>
+        <button type={type} className={` flex gap-2 items-center justify-center px-2 rounded-xl text-light1 dark:bg-btnDark hover:shadow-sm hover:shadow-btnLight bg-btnDark`}>
             <span>{icon}</span>
             <span className="btnText py-2">{text}</span>
         </button>

@@ -1,0 +1,87 @@
+.homeSecHeader {
+    @apply relative font-bpg text-[clamp(1.5rem,3vw,2.3rem)] font-bold tracking-[0.5px] text-[#4169E1] my-16 pl-5 dark:text-light3;
+}
+
+.homeSecHeader::before {
+    @apply content-[''] absolute left-0 top-1/2 -translate-y-1/2 w-1 h-10 rounded-full bg-contrastColl;
+}
+/* stationery */
+.carouselWrapper {
+  @apply relative w-full;
+}
+
+.stationarySec .products {
+  @apply flex gap-4 overflow-x-auto scroll-smooth px-14 py-4;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.products::-webkit-scrollbar {
+  display: none;
+}
+
+.stationarySec .productItem {
+  @apply relative min-w-[300px] max-w-[300px] overflow-hidden rounded-xl shadow-lg transition-transform duration-200;
+}
+
+.stationarySec .productItem:hover {
+  @apply -translate-y-1;
+}
+
+.carouselArrow {
+  @apply absolute top-1/2 z-30 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-gray-200 bg-white/95 text-gray-700 shadow-md transition-all duration-200;
+  
+  backdrop-filter: blur(4px);
+}
+
+.carouselArrow:hover {
+  @apply scale-110 bg-btnLight text-white shadow-lg;
+}
+
+.carouselArrow:active {
+  @apply scale-95;
+}
+
+.carouselArrowLeft {
+  @apply left-2;
+}
+
+.carouselArrowRight {
+  @apply right-2;
+}
+
+.favIcon {
+  @apply absolute right-3 top-3 z-20 flex h-9 w-9 items-center justify-center rounded-full bg-white/90 shadow-sm transition-all duration-200;
+  
+  backdrop-filter: blur(4px);
+}
+
+.favIcon:hover {
+  @apply scale-110 bg-white;
+}
+
+.favIcon:active {
+  @apply scale-95;
+}
+
+.favIcon .icon {
+  @apply text-xl;
+}
+
+.activeHeart {
+  @apply absolute inset-0 m-auto text-sm text-btnLight;
+}
+
+.suppliersList {
+  @apply flex items-center justify-around gap-3 bg-light3;
+}
+
+.supplierItem {
+  @apply flex h-32 w-32 items-center justify-center overflow-hidden;
+}
+
+.supplierItem img {
+  @apply w-full object-contain;
+}
+/*  */

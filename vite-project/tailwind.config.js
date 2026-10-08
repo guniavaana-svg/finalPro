@@ -23,7 +23,8 @@ export default {
         dark1:"#0d152d",
         dark2:"#142044",
         darkshadow:"#142044",
-        shadow1:"#213571"
+        shadow1:"#213571",
+        contrastColl:"#F4511E"
       }
     },
      

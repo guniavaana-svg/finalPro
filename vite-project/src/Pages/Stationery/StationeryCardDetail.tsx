@@ -107,7 +107,7 @@ function StationeryCardDetail(){
                             <IoCartOutline className="w-[20px] h-[20px]"/>
                             <span className="btnText py-2">კალათაში დამატება</span>
                         </button>
-                        <Btn type="submit" text="კალათაში დამატება" icon={<IoCartOutline className="w-[20px] h-[20px]"/>} bgCol="btnLight" textCol="light2"/>
+                        {/* <Btn type="submit" text="კალათაში დამატება" icon={<IoCartOutline className="w-[20px] h-[20px]"/>} bgCol="btnLight" textCol="light2"/> */}
                     </Form>  
                </Formik>
                <div>
