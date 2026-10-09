@@ -13,9 +13,9 @@ function DashLayout (){
     return(
         <>
             <DashHeader/>
-            <main className="bg-red-600">
+            <main className="bg-light3">
                {isAuth ? <Outlet/> : <Navigate to="/"/>}
-               <button onClick={()=>{dispatch(logOut());navigate("/")}}>log out</button>
+               <button onClick={()=>{dispatch(logOut());navigate("/")}}>გამოსვლა</button>
             </main>
             <Footer/>
         </>
