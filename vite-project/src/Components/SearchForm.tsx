@@ -31,7 +31,7 @@ function SearchForm() {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [favorites, setFavorites] = useState<Record<number, boolean>>({});
+  // const [favorites, setFavorites] = useState<Record<number, boolean>>({});
   const [shearchIsOpen, setShearchIsOpen] = useState<boolean>(false);
 
   // ძებნისა და ფილტრაციის State-ები
@@ -61,9 +61,9 @@ function SearchForm() {
     fetchProducts();
   }, []);
 
-  const toggleFavorite = (id: number) => {
-    setFavorites((prev) => ({ ...prev, [id]: !prev[id] }));
-  };
+  // const toggleFavorite = (id: number) => {
+  //   setFavorites((prev) => ({ ...prev, [id]: !prev[id] }));
+  // };
 
   // კატეგორიებისა და მომწოდებლების სია
   const categories = useMemo(() => {

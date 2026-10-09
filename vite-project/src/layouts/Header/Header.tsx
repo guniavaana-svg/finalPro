@@ -3,7 +3,7 @@ import Nav from "../../Components/Nav.tsx";
 import LogIn from "../../Pages/LogIn/LogIn.tsx";
 import Registration from "../../Pages/Registration/Registration.tsx";
 import { TiAdjustContrast} from "react-icons/ti";
-import { FiUser,FiSearch } from "react-icons/fi";
+import { FiUser} from "react-icons/fi";
 import { FaTimes } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";

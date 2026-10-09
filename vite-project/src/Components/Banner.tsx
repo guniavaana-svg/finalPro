@@ -5,7 +5,7 @@ import Btn from "../Components/Btn.tsx";
 
 const AUTOPLAY_TIME = 5000;
 
-export default function DynamicBanner(): React.ReactElement {
+ function DynamicBanner() {
   const [suppliersData, setSuppliersData] = useState<SuppliersDataType[]>([]);
   const [current, setCurrent] = useState<number>(0);
   const [isPaused, setIsPaused] = useState<boolean>(false);
@@ -245,3 +245,5 @@ export default function DynamicBanner(): React.ReactElement {
     </section>
   );
 }
+
+export default DynamicBanner;
