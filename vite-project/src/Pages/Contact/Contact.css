@@ -37,7 +37,7 @@
 }
 
 .contact-map {
-    @apply w-full h-full min-h-[30rem] rounded-3xl;
+    @apply w-full h-full min-h-[30rem] rounded-3xl z-0;
 }
 
 .map-overlay {

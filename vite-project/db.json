@@ -599,5 +599,74 @@
       ],
       "supplier": "Stationery House"
     }
-  ]
+  ],
+  "categories": [
+  {
+    "id": 1,
+    "category": "დღიურები და ნოუთბუქები",
+    "subcategories": [
+      {
+        "id": 101,
+        "name": "პრემიუმ ნოუთბუქები",
+        "productIds": [1, 2]
+      },
+      {
+        "id": 102,
+        "name": "ტყავის დღიურები",
+        "productIds": [3]
+      },
+      {
+        "id": 103,
+        "name": "საწერი კალმები",
+        "productIds": [4]
+      },
+      {
+        "id": 104,
+        "name": "პლანერები",
+        "productIds": [12]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "სახატავი მასალები",
+    "subcategories": [
+      {
+        "id": 201,
+        "name": "აკვარელი",
+        "productIds": [5]
+      },
+      {
+        "id": 202,
+        "name": "გრაფიტის ფანქრები",
+        "productIds": [6]
+      },
+      {
+        "id": 203,
+        "name": "ფაინლაინერები",
+        "productIds": [7]
+      },
+      {
+        "id": 204,
+        "name": "სახატავი ქაღალდი და ბლოკები",
+        "productIds": [8]
+      },
+      {
+        "id": 205,
+        "name": "ფერადი ფანქრები",
+        "productIds": [9]
+      },
+      {
+        "id": 206,
+        "name": "მარკერები",
+        "productIds": [10]
+      },
+      {
+        "id": 207,
+        "name": "ფუნჯები",
+        "productIds": [11]
+      }
+    ]
+  }
+]
 }

@@ -13,7 +13,6 @@ import { IoCartOutline } from "react-icons/io5"
 import { FaTimes } from "react-icons/fa";
 import { AiOutlineLeft, AiOutlineRight, AiOutlineDown} from "react-icons/ai";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
-import Btn from "../../Components/Btn.tsx";
 
 function StationeryCardDetail(){
     const{id}=useParams();
@@ -66,7 +65,7 @@ function StationeryCardDetail(){
                 </div>
             </div>
             {isOpen && 
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-dark1 bg-opacity-50 dark:bg-opacity-80 dark:bg-darkshadow">
+            <div className="fixed inset-0 z-[1100] flex items-center justify-center bg-dark1 bg-opacity-50 dark:bg-opacity-80 dark:bg-darkshadow">
                 <div className="relative w-11/12  max-w-[90vw] h-[90vh]  rounded-lg shadow-lg dark:shadow-darkshadow  p-8 bg-light1 dark:bg-dark2 flex items-center justify-center">
                     <button onClick={()=>{setimgSrcIndex(prev=>prev>0?prev-1:length-1)}} className="leftBtn -translate-x-1/2 left-0">
                         <AiOutlineLeft className="icon"/>
@@ -107,7 +106,7 @@ function StationeryCardDetail(){
                             <IoCartOutline className="w-[20px] h-[20px]"/>
                             <span className="btnText py-2">კალათაში დამატება</span>
                         </button>
-                        {/* <Btn type="submit" text="კალათაში დამატება" icon={<IoCartOutline className="w-[20px] h-[20px]"/>} bgCol="btnLight" textCol="light2"/> */}
+                        
                     </Form>  
                </Formik>
                <div>

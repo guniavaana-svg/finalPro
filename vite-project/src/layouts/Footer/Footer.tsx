@@ -33,7 +33,7 @@ function Footer() {
     }, []);
 
     return (
-        <footer className="bg-[#d9e1f9]">
+        <footer className=" bg-[#d9e1f9] dark:text-[#b3c3f3] dark:bg-[#070b17] dark:shadow-darkshadow right-0 left-0;">
             <div className="container mx-auto">
                 <div className="flex items-center flex-col justify-between gap-6 p-5">
                     <div className="logo">
@@ -58,7 +58,7 @@ function Footer() {
                                         ${
                                             isActive
                                                 ? "text-blue-500 after:w-full"
-                                                : "text-gray-700 after:w-0 hover:text-blue-500 hover:after:w-full"
+                                                : "text-dark2 dark:text-light3 after:w-0 hover:text-blue-500 hover:after:w-full"
                                         }`
                                     }
                                 >

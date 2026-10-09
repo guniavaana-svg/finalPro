@@ -53,7 +53,7 @@ function Cart(){
         <>
             <button onClick={()=>{setIsOpen(true)}} className="text-sm border-none flex gab-2 justify-center items-center bg-light3 p-1 rounded-xl gap-1">
                 <BsBasket2Fill className="text-btnLight dark:text-btnDark"/>
-                <span className="font-mtavruli translate-y-[2px]">კალათა</span>
+                <span className="font-mtavruli translate-y-[2px] sm:flex hidden dark:text-dark2">კალათა</span>
             </button>
             {isOpen && <div onClick={()=>setIsOpen(false)} className="fixed inset-0 z-50 flex items-center justify-end bg-dark1 bg-opacity-50 dark:bg-opacity-80 dark:bg-darkshadow">
                 <div  onClick={(e) => e.stopPropagation()} className="relative  h-full shadow-lg dark:shadow-darkshadow bg-light1 dark:bg-dark2 p-2 flex flex-col justify-start">

@@ -7,10 +7,11 @@ interface productCardPropsType {
     price?: number;
     currency?: string;
     thumbnail?: string;
+    onProductClick?: () => void;
 }
 
 function ProductCard(props: productCardPropsType) {
-    const { className, name, price, currency, thumbnail, id } = props;
+    const { className, name, price, currency, thumbnail, id, onProductClick } = props;
     
     return (
         <div className={`relative h-full flex flex-col ${className}`}>
@@ -20,7 +21,7 @@ function ProductCard(props: productCardPropsType) {
             <div className="flex flex-row gap-2 items-start text-[.8rem] p-6">
                 <h3 className="">{name}</h3>
                 <span className="font-bold p-2 border-[1px] dark:text-dark1 border-light2 bg-light2 rounded-xl">{price}{currency}</span>
-                <NavLink className="absolute inset-0 z-10" to={id ?? ""} />
+                <NavLink onClick={onProductClick} className="absolute inset-0 z-10" to={id ?? ""} />
             </div>
         </div>
     );

@@ -7,9 +7,14 @@ interface Menu {
     id: number;
     path: string;
     name: string;
+   
+}
+interface NavPropsType{
+     col?:string;
 }
 
-function Nav() {
+function Nav(props:NavPropsType) {
+    const {col}=props
     const [menuData, setMenu] = useState<Menu[]>([]);
 
     useEffect(() => {
@@ -36,7 +41,7 @@ function Nav() {
 
     return (
        <nav>
-    <ul className="flex gap-6 p-4">
+    <ul className={`flex gap-6 p-4 ${col}`}>
         {menuData.map((item) => (
             <li key={item.id}>
                 <NavLink
@@ -49,7 +54,7 @@ function Nav() {
                         ${
                             isActive
                                 ? "text-blue-500 after:w-full"
-                                : "text-gray-700 after:w-0 hover:text-blue-500 hover:after:w-full"
+                                : "text-dark2 dark:text-light3 after:w-0 hover:text-blue-500 hover:after:w-full"
                         }`
                     }
                 >

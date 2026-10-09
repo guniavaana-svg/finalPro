@@ -31,7 +31,7 @@ function Favorite(){
     <>
         <button onClick={()=>setIsOpen(true)} className="border-none flex gab-2 justify-center items-center bg-light3 p-1 rounded-xl text-sm">
             <CiHeart className="w-[20px]  h-[20px] text-btnLight dark:text-btnDark"/>
-            <span className="font-mtavruli translate-y-[2px]">რჩეულები</span>
+            <span className="font-mtavruli translate-y-[2px] sm:flex hidden dark:text-dark2">რჩეულები</span>
         </button>
           {isOpen && 
         <div onClick={()=>setIsOpen(false)} className="fixed inset-0 z-50 flex items-center justify-end bg-dark1 bg-opacity-50 dark:bg-opacity-80 dark:bg-darkshadow">
